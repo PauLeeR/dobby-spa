@@ -1,0 +1,9 @@
+.welcoming li {
+  list-style: none;
+  padding-right: 5px; }
+.welcoming li img {
+  width: 20px;
+  height: 20px;
+  background-color: darkred; }
+
+/*# sourceMappingURL=main.css.map */
