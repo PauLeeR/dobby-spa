@@ -14,33 +14,32 @@
 </head>
 <body>
 	<!-- navbar -->
-	<header class="header">
-		<nav class="navbar navbar-fixed-top navbar-default navbar-transparent">
-			<div class="container">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					
-				</div>
-				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-					<ul class="nav navbar-nav navbar-center">
-						<li><a href="#">home</a></li>
-						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">blog<span class="caret"></span></a>
-						</li>
-						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">about us<span class="caret"></span></a>
-						</li>
-						<li><a href="#">careers</a></li>
-						<li><a href="#">contact us</a></li>
-					</ul>
-				</div>
+	<nav class="navbar navbar-default" role="navigation" align="center">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+
 			</div>
-		</nav>
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse text-center" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li class=""><a href="#">home</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">blog <span class="caret"></span></a>         
+					</li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">about us <span class="caret"></span></a>        
+					</li>
+					<li><a href="#">careers</a></li>
+					<li><a href="#">contact us</a></li>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		</div>
 		<!-- carousel -->
 		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 			<!--Indicators-->	 
@@ -62,7 +61,8 @@
 				</div>
 			</div>
 		</div>
-	</header>
+	</nav>
+
 
 	<!--items spa-->
 	<section class="items-spa">
@@ -72,7 +72,7 @@
 					<div class="col-md-3 text-center">
 						<img class="img-circle" src="assets/img/skin_care_1_thumb.jpg" alt="Woman washing hands in a bowl with water">
 						<div class="items-caption">
-							<h3>SKIN CARE </h3>
+							<h4>SKIN CARE </h4>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec facilisis consequat tellus a fermentum. Maecenas convallis.</p>
 							<span><a href="#" class="btn" role="button">READ MORE...</a></span>
 						</div>
@@ -80,7 +80,7 @@
 					<div class="col-md-3 text-center">
 						<img class="img-circle" src="assets/img/spa_ treatments_thumb.jpg" alt="scene of a spa: flowers, towels, and a candle floating on water">
 						<div class="items-caption">
-							<h3>SPA TREATMENTS</h3>
+							<h4>SPA TREATMENTS</h4>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec facilisis consequat tellus a fermentum. Maecenas convallis.</p>
 							<span><a href="#" class="btn" role="button">READ MORE...</a></span>
 						</div>
@@ -88,7 +88,7 @@
 					<div class="col-md-3 text-center">
 						<img class="img-circle" src="assets/img/aromatherapy_1_thumb.jpg" alt="a red rose, green branches of leaves, white lilliums, and a jar of a scented something">
 						<div class="items-caption">
-							<h3>AROMATHERAPY</h3>
+							<h4>AROMATHERAPY</h4>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec facilisis consequat tellus a fermentum. Maecenas convallis.</p>
 							<span><a href="#" class="btn" role="button">READ MORE...</a></span>
 						</div>
@@ -96,7 +96,7 @@
 					<div class="col-md-3 text-center">
 						<img class="img-circle" src="assets/img/massage_thumb.jpg" alt="a relaxed man having a massage done">
 						<div class="items-caption">
-							<h3>MASSAGE</h3>
+							<h4>MASSAGE</h4>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec facilisis consequat tellus a fermentum. Maecenas convallis.</p>
 							<span><a href="#" class="btn" role="button">READ MORE...</a></span>
 						</div>
@@ -142,42 +142,67 @@
 <section class="half-half">
 	<div class="row">
 		<div class="col-md-12 about">
-			<div class="col-md-6 text-right">
-				<h4>ABOUT US</h4>
+			<div class="col-md-6">
+				<h4 class="text-right">ABOUT US</h4>
 				<hr>
-			</div>	
-			<div class="col-md-6 text-left">
-				<h4>GIFT PROGRAM</h4>
+				<div class="col-md-6">
+					<img src="assets/img/home1.jpg" alt="spa scene" class="img-responsive img-rounded">
+				</div>
+				<div class="col-md-6 text-right">
+					<p>Nam tristique purus vel cursus elementum. Quisque turpis eros, varius ac gravida id, porta eget neque. Ut ut neque velit. Mauris sed auctor nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras rutrum semper massa, non vehicula lorem. Ut fringilla vitae lorem vel consequat. Curabitur mollis congue tincidunt. Proin et augue at ligula vestibulum ultricies nec eu libero. Aenean at eros id urna facilisis gravida sit amet sit. Maecenas vitae est vel sem aliquet tincidunt ac pulvinar sem. Sed arcu arcu, fermentum eget efficitur quis, volutpat a lacus. Suspendisse eget purus eget diam pharetra placerat. Vestibulum in malesuada diam. Aliquam facilisis viverra vulputate.Maecenas vitae est vel sem aliquet tincidunt ac pulvinar sem. Sed arcu arcu, fermentum eget efficitur quis, volutpat a lacus. Suspendisse eget purus eget diam pharetra placerat. Vestibulum in malesuada diam.</p>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<h4 class="text-left">GIFT PROGRAM</h4>
 				<hr>
+				<div class="col-md-6 text-left">
+					<p>Maecenas vitae est vel sem aliquet tincidunt ac pulvinar sem. Sed arcu arcu, fermentum eget efficitur quis, volutpat a lacus. Suspendisse eget purus eget diam pharetra placerat. Vestibulum in malesuada diam. Aliquam facilisis viverra vulputate. Nullam viverra eros ac mi vulputate, dapibus aliquet magna posuere. Nam tempus cursus bibendum. Nam tristique purus vel cursus elementum. Quisque turpis eros, varius ac gravida id, porta eget neque. Ut ut neque velit. Mauris sed auctor nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus.Nam tristique purus vel cursus elementum. Quisque turpis eros, varius ac gravida id, porta eget neque. Ut ut neque velit. Mauris sed auctor nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+				</div>
+				<div class="col-md-6">
+					<img src="assets/img/home2.jpg" alt="pink flowers around little boxed with the word 'love'  written on them" class="img-responsive img-rounded">
+				</div>
 			</div>
 		</div>
 	</div>
-	<div class="row">
-		I<div class="col-md-6">
-		<img src="assets/img/home1.jpg" alt="a spa scene" class="img-responsive img-rounded">
-	</div>
-	<div class="col-md-6 text-right">
-		<p>Nam tristique purus vel cursus elementum. Quisque turpis eros, varius ac gravida id, porta eget neque. Ut ut neque velit. Mauris sed auctor nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras rutrum semper massa, non vehicula lorem. Ut fringilla vitae lorem vel consequat. Curabitur mollis congue tincidunt. Proin et augue at ligula vestibulum ultricies nec eu libero. Aenean at eros id urna facilisis gravida sit amet sit. Maecenas vitae est vel sem aliquet tincidunt ac pulvinar sem. Sed arcu arcu, fermentum eget efficitur quis, volutpat a lacus. Suspendisse eget purus eget diam pharetra placerat. Vestibulum in malesuada diam. Aliquam facilisis viverra vulputate.Maecenas vitae est vel sem aliquet tincidunt ac pulvinar sem. Sed arcu arcu, fermentum eget efficitur quis, volutpat a lacus. Suspendisse eget purus eget diam pharetra placerat. Vestibulum in malesuada diam. Aliquam facilisis viverra vulputate. Nullam viverra eros ac mi vulputate, dapibus aliquet magna posuere. Nam tempus cursus bibendum. Nam tristique purus vel cursus elementum. Quisque turpis eros, varius ac gravida id, porta eget neque. Ut ut neque velit.</p>
-	</div>
-	<div class="col-md-6">
-		<img src="assets/img/home2.jpg" alt="" class="img-responsive img-rounded">
-	</div>
-	<div class="col-md-6 text-left">
-		<p>Maecenas vitae est vel sem aliquet tincidunt ac pulvinar sem. Sed arcu arcu, fermentum eget efficitur quis, volutpat a lacus. Suspendisse eget purus eget diam pharetra placerat. Vestibulum in malesuada diam. Aliquam facilisis viverra vulputate. Nullam viverra eros ac mi vulputate, dapibus aliquet magna posuere. Nam tempus cursus bibendum. Nam tristique purus vel cursus elementum. Quisque turpis eros, varius ac gravida id, porta eget neque. Ut ut neque velit. Mauris sed auctor nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus.Nam tristique purus vel cursus elementum. Quisque turpis eros, varius ac gravida id, porta eget neque. Ut ut neque velit. Mauris sed auctor nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus. </p>
-	</div>
-
-</div>
-</div>
-</div>
 </section>
 
+<footer>
+	<div class="row">
+		<div class="col-md-12">
+			<div class="col-md-6">
+				<h4>FOLLOW US</h4>
+				<div class="col-md-12">
+					<img src="assets/img/facebook-logo-webtreatsetc.png" alt="facebook logo icon" class="img-circle">
+					<img src="assets/img/google-g-logo-webtreatsetc.png" alt="google logo icon" class="img-circle">
+					<img src="assets/img/twitter-bird3-webtreatsetc (1).png" alt="twitter logo icon" class="img-circle">
+					<img src="assets/img/rss-basic-webtreatsetc.png" alt=" Rich Site Summary logo icon" class="img-circle">
+				</div>
+			</div>
+			<div class="col-md-3">
+				<h4>PEOPLE ARE TALKING</h4>
+				<p>Suspendisse sit amet congue lorem. Ut sed dolor ut leo pellentesque lacinia. Duis scelerisque turpis fermentum, tempus tortor non, fermentum turpis. Sed in mattis magna, a faucibus risus. In hendrerit et risus sit amet eleifend. Nulla sed arcu at justo.</p>
+			</div>
+			<div class="col-md-3">
+				<h4>CONTACT US</h4>
+				<h4>TOLL FREE: 1 800 987 65 43</h4>
+				<p class="mail">E-mail: <a href="#">email@demoink.org</a></p>
+				<h4>OUR ADRESS</h4>
+				<p>17600 Yonge Biggest St, Toronto, L3Y 4Z1</p>
+			</div>
+			<div class="col-md-12">
+					<hr>
+					<p class="text-center">DISCLAIMER: Revolutionary hair color fortifies every strand giving you shinier, healthier-looking hair & amazing base color paired with hints of red high & low-lights for a sultry color with amazing dimension.</p>
+				</div>
+		</footer>
 
 
-<!--jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js'></script>
-<!-- Bootstrap Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<script src="assets/js/main.js"></script>
 
-</body>
-</html>
+
+		<!--jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js'></script>
+		<!-- Bootstrap Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<script src="assets/js/main.js"></script>
+
+	</body>
+	</html>

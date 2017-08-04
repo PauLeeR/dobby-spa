@@ -1,17 +1,4 @@
-.welcoming {
-	li {
-		list-style: none;
-		padding-right: 5px;
-	}
-
-	li img{
-		width: 20px;
-		height: 20px;
-		background-color: darkred;
-	}
-}
-
-
-hr{
-	
-}
+@import 'assets/stylesheets/bootstrap.scss';
+@import '_variables.scss';
+@import '_mixin.scss';
+@import '_style.scss';
