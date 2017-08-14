@@ -120,6 +120,41 @@ footer{
 	}
 	.disc{
 		font-size: 12px;
+		margin-left: 62px;
+	}
+}
+
+
+@media (max-width: 768px){  //version responsive
+	.carousel-inner > .item > img{
+		height: 150px;
 	}
 
+	.items-spa{
+		img{
+			margin-top: 20px;
+			margin-bottom: -15px;
+			width: 150px;
+		}
+	}
+
+	.half-half{
+		padding-top: 20px;
+	}
+
+	footer{
+		padding-top: 5px;
+
+		.iconitos{
+			padding-bottom: 25px;
+		}
+
+		h4{
+			margin-top: 20px;
+		}
+
+		.disc{
+			margin-left: 0px;
+		}
+	}
 }

@@ -5883,6 +5883,28 @@ footer {
   footer a {
     color: #c45944; }
   footer .disc {
-    font-size: 12px; }
+    font-size: 12px;
+    margin-left: 62px; }
+
+@media (max-width: 768px) {
+  .carousel-inner > .item > img {
+    height: 150px; }
+
+  .items-spa img {
+    margin-top: 20px;
+    margin-bottom: -15px;
+    width: 150px; }
+
+  .half-half {
+    padding-top: 20px; }
+
+  footer {
+    padding-top: 5px; }
+    footer .iconitos {
+      padding-bottom: 25px; }
+    footer h4 {
+      margin-top: 20px; }
+    footer .disc {
+      margin-left: 0px; } }
 
 /*# sourceMappingURL=main.css.map */
