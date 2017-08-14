@@ -5828,15 +5828,61 @@ button.close {
     color: #332323;
     background-color: #ddc187;
     padding: 2px; }
-  .items-spa btn {
-    border-radius: 0px; }
 
-.welcoming li {
-  list-style: none;
-  padding-right: 5px; }
-.welcoming li img {
-  width: 20px;
-  height: 20px;
-  background-color: darkred; }
+.welcoming {
+  background-color: #f9f7f7;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  border-top-style: double;
+  border-width: 3px;
+  border-color: gray; }
+  .welcoming h3 {
+    color: #c45944;
+    margin-top: 0px; }
+  .welcoming li {
+    list-style: none;
+    padding-right: 5px; }
+  .welcoming li img {
+    width: 20px;
+    height: 20px;
+    background-color: darkred;
+    margin-right: 10px; }
+
+.half-half {
+  background-color: #4c3b3b;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  color: #d6b489;
+  border-top-style: solid; }
+  .half-half .hrleft {
+    width: 50%;
+    margin-right: 0px; }
+  .half-half .hrright {
+    width: 50%;
+    margin-left: 0px; }
+
+footer {
+  background-color: #382424;
+  color: #d6b489;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  border-top: 2px solid white; }
+  footer img {
+    background-color: #d3caa0;
+    border: 5px solid #e29a7a;
+    margin: 4px; }
+  footer .hrpie {
+    margin-top: 40px;
+    width: 80%; }
+  footer h4 {
+    margin-bottom: 30px;
+    margin-top: 10px; }
+  footer h5 {
+    font-weight: bolder;
+    font-size: 16px; }
+  footer a {
+    color: #c45944; }
+  footer .disc {
+    font-size: 12px; }
 
 /*# sourceMappingURL=main.css.map */

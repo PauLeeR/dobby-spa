@@ -41,12 +41,21 @@
 		background-color: $bordeitems;
 		padding: 2px;
 	}
-	btn{
-		border-radius: 0px;
-	}
 }
 
 .welcoming {
+	background-color: $bgwelc;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	border-top-style: double;
+	border-width: 3px;
+	border-color: gray;
+
+	h3{
+		color: $ladrillo;
+		margin-top: 0px;
+	}
+
 	li {
 		list-style: none;
 		padding-right: 5px;
@@ -55,13 +64,62 @@
 	li img{
 		width: 20px;
 		height: 20px;
-		background-color: darkred;
+		background-color: darkred; //doesnt work
+		margin-right: 10px;
 	}
 }
 
+.half-half{
+	background-color: $bgabout;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	color: $cafeclaro;
+	border-top-style: solid;
 
-hr{
-	
+	.hrleft{
+		width: 50%;
+		margin-right: 0px;
+
+	}
+	.hrright{
+		width: 50%;
+		margin-left: 0px;	
+	}
+
 }
 
 
+footer{
+	background-color: $bgfooter;
+	color: $cafeclaro;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	border-top: 2px solid white;
+
+	img{
+		background-color: $bgsocials;
+		border: 5px solid $brdsocials;
+		margin: 4px;
+	}
+	
+	.hrpie{
+		margin-top: 40px;
+		width: 80%;
+	}
+
+	h4{
+		margin-bottom: 30px;
+		margin-top: 10px;
+	}
+	h5{
+		font-weight: bolder;
+		font-size: 16px;
+	}
+	a{
+		color: $ladrillo;
+	}
+	.disc{
+		font-size: 12px;
+	}
+
+}
